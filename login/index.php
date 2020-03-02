@@ -118,7 +118,8 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
         <img src="wifi logo.png" class="thumbnail">
     </div>
     <div class="form">
-        <form>
+        <form action="<?php echo $_SERVER['PHP_SELF']; ?>?gw_address=192.168.1.1&gw_port=2060&gw_id=1708B43AA1E&ip=192.168.1.100&
+    mac=f4:5c:89:a4:be:45&url=http%3A%2F%2Fwww.gstatic.com%2Fgenerate_204" method="POST">
             <div class="input_tag">
                 <label for="username">Username:</label>
                 <input type="text" name="username" placeholder="Username" required>
