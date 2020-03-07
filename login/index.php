@@ -134,7 +134,7 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
         </form>
     </div>
 
-    <span class="info">New User? Click <a href="ftp://192.168.1.1/GetWiFiAccess" target="_blank">Here</a> to download username & password.</span>
+    <span class="info">New User? Click <a href="http://192.168.1.1/GetWiFiAccess" download=" " target="_blank">Here</a> to download username & password.</span>
 </div>
 
 </body>
