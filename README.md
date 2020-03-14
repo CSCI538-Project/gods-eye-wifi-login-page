@@ -20,15 +20,15 @@ The authorization token is static for testing usages, and the testing account is
 5. Once the user has been verified, the user will obtain the Internet access. Meanwhile, the victim's computer has also been controlled by a hacker.
 
 ## Issues
-- An user needs to grant the execuate permission to the file the user downloaded.
-- Because the software embedded with trojan does *not* have a valid signature, the program can be denied by the operating system.
+- An user needs to grant the execution permission to the file the user downloaded.
+- Because the software embedded with the trojan does *not* have a valid signature, the program can be denied by the operating system.
 - User's authorization is static for now, there is only one account for testing, and only one valid Token.
 
 ## Next Steps
 - Try to find a way to re-develop the trojan software to avoid or reduce any extra operations when an user opens the downloaded program.
 - Modify the current project to intergrate other functions provided by the router running with WiFiDog.
 
-## Teams
+## Contributers
 - Aimin Wie
 - Divij Bhatia
 - Dipesh Chauhan
